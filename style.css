@@ -1,0 +1,482 @@
+.primeira-section{
+    background-image: url(media/WEB/BG/BG\ -\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;    
+}
+
+.texto-primeira{
+    font-size: 1.5em;
+}
+
+.texto-primeira h1{
+    font-size: 2.5em;
+    color: rgb(0, 195, 255);
+}
+
+.texto-primeira h2{
+    text-align: left;
+}
+
+.texto-primeira p{
+    font-size: 1.2em;
+    margin: 10px 0px;
+}
+
+.texto-primeira ul{
+    margin-left: 25px;
+    font-size: 80%;
+}
+
+.texto-primeira button{
+    padding: 15px;
+    margin-top: 25px;
+    font-size: 80%;
+    background-color: #3DABC3;
+    color: #ffffff;
+    border: 1px solid #3DABC3;
+    box-shadow: 0px 8px 2px #818181;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.texto-primeira button:hover{
+    background-color: #217183;
+    color: #ffffff;
+    border: 1px solid #217183;
+    box-shadow: 0px 0px 0px transparent;
+}
+
+.segunda-section{
+    justify-content: center;
+}
+
+.segunda-section div{
+    margin: 50px 550px;
+    font-size: 1.5em;
+}
+
+.segunda-section h1{
+    text-align: center;
+    color: rgb(0, 195, 255);
+}
+
+.segunda-section h2{
+    text-align: center;
+    color: rgb(0, 195, 255);
+}
+
+.segunda-section p{
+    text-align: justify;
+}
+
+.segunda-section button{
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 20%;
+    font-size: 80%;
+    background-color: #3DABC3;
+    color: #ffffff;
+    border: 1px solid #3DABC3;
+    box-shadow: 0px 8px 2px #818181;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.segunda-section button:hover{
+    background-color: #217183;
+    color: #ffffff;
+    border: 1px solid #217183;
+    box-shadow: 0px 0px 0px transparent;
+}
+
+
+.terceira-section{
+    display: flex;
+}
+
+.terceira-section img{
+    width: 100%;
+}
+
+.quarta-section{
+    background-image: url(media/WEB/BG/BG\ -\ 2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 70px 0px;
+}
+
+.quarta-section h1{
+    color: rgb(0, 195, 255);
+    font-size: 3em;
+}
+
+.quarta-section h2{
+    font-size: 2em;
+}
+
+.quarta-section img{
+    width: 200px;
+}
+
+.quarta-section button{
+    padding: 12px;
+    margin-top: 40px;
+    font-size: 120%;
+    background-color: #3DABC3;
+    color: #ffffff;
+    border: 1px solid #3DABC3;
+    box-shadow: 0px 8px 2px #818181;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.quinta-section{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+
+.texto-quinta{
+    margin-top: 5%;
+}
+
+.texto-quinta h1{
+    color: rgb(0, 195, 255);
+    font-size: 2.5em;
+}
+
+.texto-quinta h2{
+    font-size: 2em;
+}
+
+.texto-quinta ul li{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.texto-quinta ul h3{
+    font-size: 1.5em;
+    color: rgb(0, 195, 255);
+}
+
+.texto-quinta ul p{
+    font-size: 1.2em;
+}
+
+.quinta-section button{
+    padding: 12px;
+    margin-top: 40px;
+    font-size: 100%;
+    background-color: #3DABC3;
+    color: #ffffff;
+    border: 1px solid #3DABC3;
+    box-shadow: 0px 8px 2px #818181;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.botoes{
+    display: flex;
+    gap: 10px;
+}
+
+#botao-whatsapp{
+    background-color: rgb(14, 185, 14);
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 1px 0px;
+    cursor: pointer;
+}
+
+.fa-whatsapp{
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+.sexta-section{
+    background-color: rgb(0, 195, 255);
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding: 80px 0px;
+}
+
+.texto-sexta{
+    margin-top: 10%;
+    text-align: center;
+    color: #ffffff;
+}
+
+#texto-sexta{
+    margin-top: 10px;
+}
+
+.texto-sexta p{
+    font-size: 1.5em;
+}
+
+.texto-sexta h3{
+    font-size: 2.3em;
+}
+
+.formulario{
+    display: block;
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.formulario h1{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.formulario div{
+    margin: 30px 0px;
+}
+
+.formulario input{
+    width: 100%;
+    padding: 7px;
+    font-size: 100%;
+}
+
+.formulario button{
+    display: flex;
+    background-color: #2f2f2f;
+    border: 1px solid #2f2f2f;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    border-radius: 50px;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.formulario button:hover{
+    display: flex;
+    background-color: #1b1b1b;
+    border: 1px solid #1b1b1b;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    border-radius: 50px;
+    padding: 5px 15px;
+}
+
+.formulario button p{
+    margin: 7px 0 0 10px;
+}
+
+.setima-section{
+    background-color: rgb(0, 195, 255);
+    text-align: justify;
+    color: #ffffff;
+    padding: 10px 550px;
+    font-size: 1.5em;
+}
+
+.setima-section h2{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(0, 195, 255);
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+
+@media screen and (max-width: 1170px) {
+
+    body{
+        zoom: 270%;
+    }
+
+    .primeira-section{
+        background-image: url(media/WEB/BG/BG\ -\ 1.jpg);
+        background-position: top left;
+        background-size: 100% 100%;
+        padding: 20px 0px 0 30px;
+        display: block;
+    }
+
+    .texto-primeira img{
+        margin-bottom: 10px;
+    }
+
+    .texto-primeira{
+        font-size: 1em;
+    }
+    
+    .texto-primeira h1{
+        font-size: 2em;
+    }
+
+    .texto-primeira ul{
+        font-size: 70%;
+        margin-left: 18px;
+    }
+
+    .image-primeira img{
+        width: 350px;
+    }
+
+    .texto-primeira button{
+        padding: 10px;
+        margin-top: 25px;
+        font-size: 92%;
+    }
+
+    .segunda-section div{
+        margin: 50px 30px 50px 30px;
+        font-size: 1em;
+    }
+
+    .segunda-section h1{
+        font-size: 2em;
+    }
+
+    .segunda-section h2{
+        font-size: 2em;
+    }
+
+    .segunda-section button{
+        padding: 10px;
+        margin-top: 25px;
+        font-size: 85%;
+        margin-left: 0;
+    }
+
+    .terceira-section{
+        display: block;
+    }
+
+    .quarta-section{
+        background-image: url(media/WEB/BG/BG\ -\ 2.jpg);
+        background-repeat: no-repeat;
+        background-position: 40%;
+        background-size: 500%;
+        padding: 70px 0px;
+    }
+
+    .quarta-section h1{
+        font-size: 2em;
+    }
+
+    .quarta-section h2{
+        font-size: 1.5em;
+    }
+
+    .quarta-section img{
+        margin-top: 20px;
+        width: 175px;
+    }
+
+    .quarta-section button{
+        padding: 10px;
+        margin-top: 40px;
+        font-size: 90%;
+    }
+
+    .quinta-section{
+        display: block;
+        padding: 20px 10px 0 40px;
+    }
+
+    .texto-quinta h1{
+        font-size: 1.8em;
+    }
+
+    .image-quinta img{
+        width: 350px;
+    }
+
+    .botoes{
+        display: block;
+    }
+
+    #botao-whatsapp{
+        margin-top: 20px;
+    }
+
+    .quinta-section button{
+        padding: 10px;
+        margin-top: 40px;
+        font-size: 80%;
+    }
+
+    .sexta-section{
+        display: block;
+        padding: 50px 0px;
+    }
+
+    .texto-sexta p{
+        font-size: 1.2em;
+    }
+    
+    .texto-sexta h3{
+        font-size: 2.3em;
+    }
+
+    .formulario{
+        display: block;
+        background-color: #ffffff;
+        padding: 20px 10px;
+        border-radius: 10px;
+        margin: 20px 40px;
+    }
+
+    .formulario h1{
+        font-size: 1.8em;
+    }
+
+    .formulario input{
+        width: 99%;
+        padding: 7px;
+        font-size: 100%;
+    }
+
+    .formulario div{
+        margin: 30px 30px;
+    }
+
+    .setima-section{
+        padding: 10px 50px;
+        font-size: 1em;
+    }
+    
+    footer{
+        width: 100%;
+        font-size: 80%;
+    }
+}
